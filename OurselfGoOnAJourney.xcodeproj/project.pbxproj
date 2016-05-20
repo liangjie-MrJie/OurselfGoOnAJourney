@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		DCFAE6A01CEF0C02005F370C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE69F1CEF0C02005F370C /* main.m */; };
 		DCFAE6A31CEF0C02005F370C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE6A21CEF0C02005F370C /* AppDelegate.m */; };
-		DCFAE6A61CEF0C02005F370C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE6A51CEF0C02005F370C /* ViewController.m */; };
 		DCFAE6A91CEF0C02005F370C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6A71CEF0C02005F370C /* Main.storyboard */; };
 		DCFAE6AC1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE6AA1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodeld */; };
 		DCFAE6AE1CEF0C02005F370C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6AD1CEF0C02005F370C /* Assets.xcassets */; };
 		DCFAE6B11CEF0C02005F370C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6AF1CEF0C02005F370C /* LaunchScreen.storyboard */; };
+		DCFAE6BD1CEF0C77005F370C /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAE6BB1CEF0C77005F370C /* AMapNaviKit.framework */; };
+		DCFAE6BE1CEF0C78005F370C /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAE6BC1CEF0C77005F370C /* MAMapKit.framework */; };
+		DCFAE6C11CEF0C8F005F370C /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6BF1CEF0C8F005F370C /* AMap.bundle */; };
+		DCFAE6C21CEF0C8F005F370C /* AMapNavi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6C01CEF0C8F005F370C /* AMapNavi.bundle */; };
+		DCFAE6C41CEF0CC3005F370C /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAE6C31CEF0CC3005F370C /* iflyMSC.framework */; };
+		DCFAE6C61CEF0CE1005F370C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAE6C51CEF0CE1005F370C /* libz.tbd */; };
+		DCFAE6C81CEF0CF2005F370C /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAE6C71CEF0CF2005F370C /* libstdc++.6.0.9.tbd */; };
+		DCFAE6CA1CEF0CFF005F370C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAE6C91CEF0CFF005F370C /* libc++.tbd */; };
+		DCFAE6CD1CEF0E69005F370C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE6CC1CEF0E69005F370C /* MainViewController.m */; };
+		DCFAE6D01CEF1376005F370C /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6CE1CEF1376005F370C /* userPosition.png */; };
+		DCFAE6D11CEF1376005F370C /* userPosition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6CF1CEF1376005F370C /* userPosition@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +31,23 @@
 		DCFAE69F1CEF0C02005F370C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCFAE6A11CEF0C02005F370C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCFAE6A21CEF0C02005F370C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCFAE6A41CEF0C02005F370C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DCFAE6A51CEF0C02005F370C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DCFAE6A81CEF0C02005F370C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCFAE6AB1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OurselfGoOnAJourney.xcdatamodel; sourceTree = "<group>"; };
 		DCFAE6AD1CEF0C02005F370C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCFAE6B01CEF0C02005F370C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCFAE6B21CEF0C02005F370C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFAE6BB1CEF0C77005F370C /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapNaviKit.framework; sourceTree = "<group>"; };
+		DCFAE6BC1CEF0C77005F370C /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		DCFAE6BF1CEF0C8F005F370C /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = ../../AMap.bundle; sourceTree = "<group>"; };
+		DCFAE6C01CEF0C8F005F370C /* AMapNavi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMapNavi.bundle; path = ../../AMapNavi.bundle; sourceTree = "<group>"; };
+		DCFAE6C31CEF0CC3005F370C /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		DCFAE6C51CEF0CE1005F370C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DCFAE6C71CEF0CF2005F370C /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		DCFAE6C91CEF0CFF005F370C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DCFAE6CB1CEF0E69005F370C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DCFAE6CC1CEF0E69005F370C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DCFAE6CE1CEF1376005F370C /* userPosition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPosition.png; sourceTree = "<group>"; };
+		DCFAE6CF1CEF1376005F370C /* userPosition@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userPosition@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFAE6CA1CEF0CFF005F370C /* libc++.tbd in Frameworks */,
+				DCFAE6C81CEF0CF2005F370C /* libstdc++.6.0.9.tbd in Frameworks */,
+				DCFAE6C61CEF0CE1005F370C /* libz.tbd in Frameworks */,
+				DCFAE6C41CEF0CC3005F370C /* iflyMSC.framework in Frameworks */,
+				DCFAE6BE1CEF0C78005F370C /* MAMapKit.framework in Frameworks */,
+				DCFAE6BD1CEF0C77005F370C /* AMapNaviKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,16 +86,18 @@
 		DCFAE69D1CEF0C02005F370C /* OurselfGoOnAJourney */ = {
 			isa = PBXGroup;
 			children = (
+				DCFAE6B81CEF0C3E005F370C /* OtherFrameworks */,
 				DCFAE6A11CEF0C02005F370C /* AppDelegate.h */,
 				DCFAE6A21CEF0C02005F370C /* AppDelegate.m */,
-				DCFAE6A41CEF0C02005F370C /* ViewController.h */,
-				DCFAE6A51CEF0C02005F370C /* ViewController.m */,
+				DCFAE6CB1CEF0E69005F370C /* MainViewController.h */,
+				DCFAE6CC1CEF0E69005F370C /* MainViewController.m */,
 				DCFAE6A71CEF0C02005F370C /* Main.storyboard */,
 				DCFAE6AD1CEF0C02005F370C /* Assets.xcassets */,
 				DCFAE6AF1CEF0C02005F370C /* LaunchScreen.storyboard */,
 				DCFAE6B21CEF0C02005F370C /* Info.plist */,
 				DCFAE6AA1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodeld */,
 				DCFAE69E1CEF0C02005F370C /* Supporting Files */,
+				DCFAE6BA1CEF0C3E005F370C /* SystemFrameworks */,
 			);
 			path = OurselfGoOnAJourney;
 			sourceTree = "<group>";
@@ -77,9 +105,41 @@
 		DCFAE69E1CEF0C02005F370C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DCFAE6CE1CEF1376005F370C /* userPosition.png */,
+				DCFAE6CF1CEF1376005F370C /* userPosition@2x.png */,
 				DCFAE69F1CEF0C02005F370C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCFAE6B81CEF0C3E005F370C /* OtherFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFAE6B91CEF0C3E005F370C /* AMap */,
+			);
+			path = OtherFrameworks;
+			sourceTree = "<group>";
+		};
+		DCFAE6B91CEF0C3E005F370C /* AMap */ = {
+			isa = PBXGroup;
+			children = (
+				DCFAE6C31CEF0CC3005F370C /* iflyMSC.framework */,
+				DCFAE6BB1CEF0C77005F370C /* AMapNaviKit.framework */,
+				DCFAE6BC1CEF0C77005F370C /* MAMapKit.framework */,
+			);
+			path = AMap;
+			sourceTree = "<group>";
+		};
+		DCFAE6BA1CEF0C3E005F370C /* SystemFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFAE6C91CEF0CFF005F370C /* libc++.tbd */,
+				DCFAE6C71CEF0CF2005F370C /* libstdc++.6.0.9.tbd */,
+				DCFAE6C51CEF0CE1005F370C /* libz.tbd */,
+				DCFAE6BF1CEF0C8F005F370C /* AMap.bundle */,
+				DCFAE6C01CEF0C8F005F370C /* AMapNavi.bundle */,
+			);
+			path = SystemFrameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +173,11 @@
 				TargetAttributes = {
 					DCFAE69A1CEF0C02005F370C = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -139,6 +204,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFAE6D11CEF1376005F370C /* userPosition@2x.png in Resources */,
+				DCFAE6C11CEF0C8F005F370C /* AMap.bundle in Resources */,
+				DCFAE6D01CEF1376005F370C /* userPosition.png in Resources */,
+				DCFAE6C21CEF0C8F005F370C /* AMapNavi.bundle in Resources */,
 				DCFAE6B11CEF0C02005F370C /* LaunchScreen.storyboard in Resources */,
 				DCFAE6AE1CEF0C02005F370C /* Assets.xcassets in Resources */,
 				DCFAE6A91CEF0C02005F370C /* Main.storyboard in Resources */,
@@ -153,9 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCFAE6AC1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodeld in Sources */,
-				DCFAE6A61CEF0C02005F370C /* ViewController.m in Sources */,
 				DCFAE6A31CEF0C02005F370C /* AppDelegate.m in Sources */,
 				DCFAE6A01CEF0C02005F370C /* main.m in Sources */,
+				DCFAE6CD1CEF0E69005F370C /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +338,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OurselfGoOnAJourney/OtherFrameworks/AMap",
+				);
 				INFOPLIST_FILE = OurselfGoOnAJourney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangjie.OurselfGoOnAJourney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,7 +354,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OurselfGoOnAJourney/OtherFrameworks/AMap",
+				);
 				INFOPLIST_FILE = OurselfGoOnAJourney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangjie.OurselfGoOnAJourney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
