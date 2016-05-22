@@ -6,8 +6,8 @@
 //  Copyright © 2016年 liangjie. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseNavigationController.h"
 
-@interface MainViewController : UIViewController
+@interface MainViewController : BaseNavigationController
 
 @end

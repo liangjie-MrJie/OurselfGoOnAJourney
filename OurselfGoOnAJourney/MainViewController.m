@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import <AMapNaviKit/AMapNaviKit.h>
 #import <MAMapKit/MAMapKit.h>
+#import "MAMapView+IsShowAccuracyCircle.h"
 
 
 NSString *const GAODEAMAP = @"ce38cc5640804d06555ff143abbabb9f";
@@ -20,40 +21,51 @@ NSString *const GAODEAMAP = @"ce38cc5640804d06555ff143abbabb9f";
 @end
 
 @implementation MainViewController
-
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     [MAMapServices sharedServices].apiKey = GAODEAMAP;
     
-    self.mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
-    self.mapView.delegate = self;
+    _mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
+    _mapView.rotateEnabled = NO;
+    _mapView.rotateCameraEnabled = NO;
+    _mapView.delegate = self;
     [self.view addSubview:_mapView];
     
-    self.mapView.showsUserLocation = YES;
-    self.mapView.userTrackingMode = MAUserTrackingModeFollow;
-    
+    [self startLocation];
+    _mapView.showAccuracyCircle = NO;
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)startLocation {
+    _mapView.showsUserLocation = YES;
+    _mapView.pausesLocationUpdatesAutomatically = NO;
+    _mapView.allowsBackgroundLocationUpdates = YES;
+    //_mapView.userTrackingMode = MAUserTrackingModeFollow;
+    [_mapView setUserTrackingMode:MAUserTrackingModeFollow animated:YES]; //地图跟着位置移动
+    _mapView.customizeUserLocationAccuracyCircleRepresentation = YES;
+}
+- (MACircleRenderer *)defaultAccuracyCircleRenderer:(id <MAOverlay>)overlay {
+    MACircleRenderer *accuracyCircleRenderer = [[MACircleRenderer alloc] initWithCircle:overlay];
+    accuracyCircleRenderer.lineWidth    = 2.f;
+    accuracyCircleRenderer.strokeColor  = kMAOverlayRendererDefaultStrokeColor;
+    accuracyCircleRenderer.fillColor    = kMAOverlayRendererDefaultFillColor;
+    
+    return accuracyCircleRenderer;
 }
 
 #pragma mark - MAMapViewDelegate
 
 - (MAOverlayRenderer *)mapView:(MAMapView *)mapView rendererForOverlay:(id <MAOverlay>)overlay
 {
-    /* 自定义定位精度对应的MACircleView. */
-    if (overlay == mapView.userLocationAccuracyCircle)
-    {
-        MACircleRenderer *accuracyCircleRenderer = [[MACircleRenderer alloc] initWithCircle:overlay];
-        
-        accuracyCircleRenderer.lineWidth    = 2.f;
-        accuracyCircleRenderer.strokeColor  = [UIColor lightGrayColor];
-        accuracyCircleRenderer.fillColor    = [UIColor colorWithRed:1 green:0 blue:0 alpha:.3];
-        
-        return accuracyCircleRenderer;
+    if (mapView.showAccuracyCircle) {
+        /* 自定义定位精度对应的MACircleView. */
+        if (overlay == mapView.userLocationAccuracyCircle)
+        {
+            return [self defaultAccuracyCircleRenderer:overlay];
+        }
     }
     
     return nil;
@@ -88,7 +100,7 @@ NSString *const GAODEAMAP = @"ce38cc5640804d06555ff143abbabb9f";
     {
         [UIView animateWithDuration:0.1 animations:^{
             
-            double degree = userLocation.heading.trueHeading - self.mapView.rotationDegree;
+            double degree = userLocation.heading.trueHeading - _mapView.rotationDegree;
             self.userLocationAnnotationView.transform = CGAffineTransformMakeRotation(degree * M_PI / 180.f );
             
         }];

@@ -20,6 +20,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     MainViewController *mainVC = [[MainViewController alloc] init];
+    mainVC.title = @"主页面";
     mainVC.view.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:mainVC];
     [self.window makeKeyAndVisible];

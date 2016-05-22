@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCCB48CC1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB48CB1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.m */; };
+		DCCB48CF1CF0842F0027A8AF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB48CE1CF0842F0027A8AF /* BaseNavigationController.m */; };
 		DCFAE6A01CEF0C02005F370C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE69F1CEF0C02005F370C /* main.m */; };
 		DCFAE6A31CEF0C02005F370C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE6A21CEF0C02005F370C /* AppDelegate.m */; };
 		DCFAE6A91CEF0C02005F370C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6A71CEF0C02005F370C /* Main.storyboard */; };
@@ -27,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DCCB48CA1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MAMapView+IsShowAccuracyCircle.h"; path = "OtherFrameworks/MAMapView+IsShowAccuracyCircle.h"; sourceTree = "<group>"; };
+		DCCB48CB1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MAMapView+IsShowAccuracyCircle.m"; path = "OtherFrameworks/MAMapView+IsShowAccuracyCircle.m"; sourceTree = "<group>"; };
+		DCCB48CD1CF0842F0027A8AF /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		DCCB48CE1CF0842F0027A8AF /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		DCFAE69B1CEF0C02005F370C /* OurselfGoOnAJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurselfGoOnAJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFAE69F1CEF0C02005F370C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCFAE6A11CEF0C02005F370C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,8 +95,12 @@
 				DCFAE6B81CEF0C3E005F370C /* OtherFrameworks */,
 				DCFAE6A11CEF0C02005F370C /* AppDelegate.h */,
 				DCFAE6A21CEF0C02005F370C /* AppDelegate.m */,
+				DCCB48CD1CF0842F0027A8AF /* BaseNavigationController.h */,
+				DCCB48CE1CF0842F0027A8AF /* BaseNavigationController.m */,
 				DCFAE6CB1CEF0E69005F370C /* MainViewController.h */,
 				DCFAE6CC1CEF0E69005F370C /* MainViewController.m */,
+				DCCB48CA1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.h */,
+				DCCB48CB1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.m */,
 				DCFAE6A71CEF0C02005F370C /* Main.storyboard */,
 				DCFAE6AD1CEF0C02005F370C /* Assets.xcassets */,
 				DCFAE6AF1CEF0C02005F370C /* LaunchScreen.storyboard */,
@@ -222,6 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCFAE6AC1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodeld in Sources */,
+				DCCB48CC1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.m in Sources */,
+				DCCB48CF1CF0842F0027A8AF /* BaseNavigationController.m in Sources */,
 				DCFAE6A31CEF0C02005F370C /* AppDelegate.m in Sources */,
 				DCFAE6A01CEF0C02005F370C /* main.m in Sources */,
 				DCFAE6CD1CEF0E69005F370C /* MainViewController.m in Sources */,
@@ -385,6 +397,7 @@
 				DCFAE6B71CEF0C02005F370C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
