@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCC660331D012A9D0028B5F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC660301D012A9D0028B5F1 /* AppDelegate.m */; };
+		DCC660341D012A9D0028B5F1 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC660321D012A9D0028B5F1 /* BaseNavigationController.m */; };
+		DCC6603F1D012B190028B5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC660361D012B190028B5F1 /* Assets.xcassets */; };
+		DCC660401D012B190028B5F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC660371D012B190028B5F1 /* LaunchScreen.storyboard */; };
+		DCC660411D012B190028B5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC660391D012B190028B5F1 /* Main.storyboard */; };
+		DCC660421D012B190028B5F1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCC6603B1D012B190028B5F1 /* Info.plist */; };
+		DCC660431D012B190028B5F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC6603C1D012B190028B5F1 /* main.m */; };
+		DCC660441D012B190028B5F1 /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC6603D1D012B190028B5F1 /* userPosition.png */; };
+		DCC660451D012B190028B5F1 /* userPosition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC6603E1D012B190028B5F1 /* userPosition@2x.png */; };
 		DCCB48CC1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB48CB1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.m */; };
-		DCCB48CF1CF0842F0027A8AF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB48CE1CF0842F0027A8AF /* BaseNavigationController.m */; };
-		DCFAE6A01CEF0C02005F370C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE69F1CEF0C02005F370C /* main.m */; };
-		DCFAE6A31CEF0C02005F370C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE6A21CEF0C02005F370C /* AppDelegate.m */; };
-		DCFAE6A91CEF0C02005F370C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6A71CEF0C02005F370C /* Main.storyboard */; };
 		DCFAE6AC1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE6AA1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodeld */; };
-		DCFAE6AE1CEF0C02005F370C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6AD1CEF0C02005F370C /* Assets.xcassets */; };
-		DCFAE6B11CEF0C02005F370C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6AF1CEF0C02005F370C /* LaunchScreen.storyboard */; };
 		DCFAE6BD1CEF0C77005F370C /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAE6BB1CEF0C77005F370C /* AMapNaviKit.framework */; };
 		DCFAE6BE1CEF0C78005F370C /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAE6BC1CEF0C77005F370C /* MAMapKit.framework */; };
 		DCFAE6C11CEF0C8F005F370C /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6BF1CEF0C8F005F370C /* AMap.bundle */; };
@@ -24,24 +27,24 @@
 		DCFAE6C81CEF0CF2005F370C /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAE6C71CEF0CF2005F370C /* libstdc++.6.0.9.tbd */; };
 		DCFAE6CA1CEF0CFF005F370C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAE6C91CEF0CFF005F370C /* libc++.tbd */; };
 		DCFAE6CD1CEF0E69005F370C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFAE6CC1CEF0E69005F370C /* MainViewController.m */; };
-		DCFAE6D01CEF1376005F370C /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6CE1CEF1376005F370C /* userPosition.png */; };
-		DCFAE6D11CEF1376005F370C /* userPosition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFAE6CF1CEF1376005F370C /* userPosition@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DCC6602F1D012A9D0028B5F1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCC660301D012A9D0028B5F1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCC660311D012A9D0028B5F1 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		DCC660321D012A9D0028B5F1 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		DCC660361D012B190028B5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC660381D012B190028B5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC6603A1D012B190028B5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC6603B1D012B190028B5F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC6603C1D012B190028B5F1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCC6603D1D012B190028B5F1 /* userPosition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPosition.png; sourceTree = "<group>"; };
+		DCC6603E1D012B190028B5F1 /* userPosition@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userPosition@2x.png"; sourceTree = "<group>"; };
 		DCCB48CA1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MAMapView+IsShowAccuracyCircle.h"; path = "OtherFrameworks/MAMapView+IsShowAccuracyCircle.h"; sourceTree = "<group>"; };
 		DCCB48CB1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MAMapView+IsShowAccuracyCircle.m"; path = "OtherFrameworks/MAMapView+IsShowAccuracyCircle.m"; sourceTree = "<group>"; };
-		DCCB48CD1CF0842F0027A8AF /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		DCCB48CE1CF0842F0027A8AF /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		DCFAE69B1CEF0C02005F370C /* OurselfGoOnAJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurselfGoOnAJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCFAE69F1CEF0C02005F370C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DCFAE6A11CEF0C02005F370C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DCFAE6A21CEF0C02005F370C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCFAE6A81CEF0C02005F370C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCFAE6AB1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OurselfGoOnAJourney.xcdatamodel; sourceTree = "<group>"; };
-		DCFAE6AD1CEF0C02005F370C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCFAE6B01CEF0C02005F370C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DCFAE6B21CEF0C02005F370C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCFAE6BB1CEF0C77005F370C /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapNaviKit.framework; sourceTree = "<group>"; };
 		DCFAE6BC1CEF0C77005F370C /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		DCFAE6BF1CEF0C8F005F370C /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = ../../AMap.bundle; sourceTree = "<group>"; };
@@ -52,8 +55,6 @@
 		DCFAE6C91CEF0CFF005F370C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		DCFAE6CB1CEF0E69005F370C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		DCFAE6CC1CEF0E69005F370C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		DCFAE6CE1CEF1376005F370C /* userPosition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPosition.png; sourceTree = "<group>"; };
-		DCFAE6CF1CEF1376005F370C /* userPosition@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userPosition@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DCC6602E1D012A7C0028B5F1 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				DCC6602F1D012A9D0028B5F1 /* AppDelegate.h */,
+				DCC660301D012A9D0028B5F1 /* AppDelegate.m */,
+				DCC660311D012A9D0028B5F1 /* BaseNavigationController.h */,
+				DCC660321D012A9D0028B5F1 /* BaseNavigationController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		DCC660351D012B190028B5F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCC660361D012B190028B5F1 /* Assets.xcassets */,
+				DCC660371D012B190028B5F1 /* LaunchScreen.storyboard */,
+				DCC660391D012B190028B5F1 /* Main.storyboard */,
+				DCC6603B1D012B190028B5F1 /* Info.plist */,
+				DCC6603C1D012B190028B5F1 /* main.m */,
+				DCC6603D1D012B190028B5F1 /* userPosition.png */,
+				DCC6603E1D012B190028B5F1 /* userPosition@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DCFAE6921CEF0C02005F370C = {
 			isa = PBXGroup;
 			children = (
@@ -93,33 +119,16 @@
 			isa = PBXGroup;
 			children = (
 				DCFAE6B81CEF0C3E005F370C /* OtherFrameworks */,
-				DCFAE6A11CEF0C02005F370C /* AppDelegate.h */,
-				DCFAE6A21CEF0C02005F370C /* AppDelegate.m */,
-				DCCB48CD1CF0842F0027A8AF /* BaseNavigationController.h */,
-				DCCB48CE1CF0842F0027A8AF /* BaseNavigationController.m */,
 				DCFAE6CB1CEF0E69005F370C /* MainViewController.h */,
 				DCFAE6CC1CEF0E69005F370C /* MainViewController.m */,
 				DCCB48CA1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.h */,
 				DCCB48CB1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.m */,
-				DCFAE6A71CEF0C02005F370C /* Main.storyboard */,
-				DCFAE6AD1CEF0C02005F370C /* Assets.xcassets */,
-				DCFAE6AF1CEF0C02005F370C /* LaunchScreen.storyboard */,
-				DCFAE6B21CEF0C02005F370C /* Info.plist */,
 				DCFAE6AA1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodeld */,
-				DCFAE69E1CEF0C02005F370C /* Supporting Files */,
+				DCC6602E1D012A7C0028B5F1 /* BaseClass */,
+				DCC660351D012B190028B5F1 /* Resources */,
 				DCFAE6BA1CEF0C3E005F370C /* SystemFrameworks */,
 			);
 			path = OurselfGoOnAJourney;
-			sourceTree = "<group>";
-		};
-		DCFAE69E1CEF0C02005F370C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DCFAE6CE1CEF1376005F370C /* userPosition.png */,
-				DCFAE6CF1CEF1376005F370C /* userPosition@2x.png */,
-				DCFAE69F1CEF0C02005F370C /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DCFAE6B81CEF0C3E005F370C /* OtherFrameworks */ = {
@@ -214,13 +223,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCFAE6D11CEF1376005F370C /* userPosition@2x.png in Resources */,
+				DCC660401D012B190028B5F1 /* LaunchScreen.storyboard in Resources */,
+				DCC660451D012B190028B5F1 /* userPosition@2x.png in Resources */,
+				DCC660411D012B190028B5F1 /* Main.storyboard in Resources */,
 				DCFAE6C11CEF0C8F005F370C /* AMap.bundle in Resources */,
-				DCFAE6D01CEF1376005F370C /* userPosition.png in Resources */,
 				DCFAE6C21CEF0C8F005F370C /* AMapNavi.bundle in Resources */,
-				DCFAE6B11CEF0C02005F370C /* LaunchScreen.storyboard in Resources */,
-				DCFAE6AE1CEF0C02005F370C /* Assets.xcassets in Resources */,
-				DCFAE6A91CEF0C02005F370C /* Main.storyboard in Resources */,
+				DCC660441D012B190028B5F1 /* userPosition.png in Resources */,
+				DCC660421D012B190028B5F1 /* Info.plist in Resources */,
+				DCC6603F1D012B190028B5F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,30 +243,30 @@
 			files = (
 				DCFAE6AC1CEF0C02005F370C /* OurselfGoOnAJourney.xcdatamodeld in Sources */,
 				DCCB48CC1CEF2E560027A8AF /* MAMapView+IsShowAccuracyCircle.m in Sources */,
-				DCCB48CF1CF0842F0027A8AF /* BaseNavigationController.m in Sources */,
-				DCFAE6A31CEF0C02005F370C /* AppDelegate.m in Sources */,
-				DCFAE6A01CEF0C02005F370C /* main.m in Sources */,
+				DCC660341D012A9D0028B5F1 /* BaseNavigationController.m in Sources */,
 				DCFAE6CD1CEF0E69005F370C /* MainViewController.m in Sources */,
+				DCC660431D012B190028B5F1 /* main.m in Sources */,
+				DCC660331D012A9D0028B5F1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DCFAE6A71CEF0C02005F370C /* Main.storyboard */ = {
+		DCC660371D012B190028B5F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DCFAE6A81CEF0C02005F370C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DCFAE6AF1CEF0C02005F370C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCFAE6B01CEF0C02005F370C /* Base */,
+				DCC660381D012B190028B5F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC660391D012B190028B5F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC6603A1D012B190028B5F1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -354,7 +364,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/OurselfGoOnAJourney/OtherFrameworks/AMap",
 				);
-				INFOPLIST_FILE = OurselfGoOnAJourney/Info.plist;
+				INFOPLIST_FILE = OurselfGoOnAJourney/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangjie.OurselfGoOnAJourney;
@@ -370,7 +380,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/OurselfGoOnAJourney/OtherFrameworks/AMap",
 				);
-				INFOPLIST_FILE = OurselfGoOnAJourney/Info.plist;
+				INFOPLIST_FILE = OurselfGoOnAJourney/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangjie.OurselfGoOnAJourney;
